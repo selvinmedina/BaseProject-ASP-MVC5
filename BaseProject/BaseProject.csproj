@@ -182,10 +182,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\UserAreaRegistration.cs" />
     <Compile Include="Attribute\SessionManager.cs" />
+    <Compile Include="Controllers\CRUD.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\General.cs" />
     <Compile Include="Helpers\HMTLHelperExtensions.cs" />
     <Compile Include="Models\Helpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

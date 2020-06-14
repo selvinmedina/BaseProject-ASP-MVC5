@@ -172,6 +172,7 @@
     <Folder Include="App_Data\uploads\" />
     <Folder Include="Content\plugins\" />
     <Folder Include="Images\" />
+    <Folder Include="Scripts\app\vue\components\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AdminAreaRegistration.cs" />
@@ -257,8 +258,11 @@
     <Content Include="Content\landing\header_one.jpg" />
     <Content Include="Content\landing\header_two.jpg" />
     <Content Include="Content\landing\word_map.png" />
+    <Content Include="Scripts\app\general\general.js" />
     <Content Include="Scripts\app\inspinia.js" />
     <Content Include="Scripts\app\skin.config.min.js" />
+    <Content Include="Scripts\app\vue\component-loader.js" />
+    <Content Include="Scripts\app\vue\vue.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
